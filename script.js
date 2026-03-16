@@ -110,7 +110,12 @@ s.peek();`,
 python: `stack = []
 stack.append(x)
 stack.pop()
-stack[-1]`
+stack[-1]`,
+
+javascript: `let stack = [];
+stack.push(x);
+stack.pop();
+stack[stack.length - 1];`
 };
 
 function changeLanguage() {
